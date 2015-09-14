@@ -1,0 +1,11 @@
+{% ckan_extends %}
+
+{% block resource_actions_inner %}
+  <li data-module="clipboard-resource" data-module-id="{{ res.id }}" data-module-name="{{ c.package.title }}" data-module-format="{{ res.format }}"  data-module-url="{{ res.url }}">
+    <button type="button" class="btn btn-success">
+      <i class="icon-shopping-cart"></i>
+      <span>{{ _('Clipboard') }}</span>
+    </button>
+  </li>
+  {{ super() }}
+{% endblock %}

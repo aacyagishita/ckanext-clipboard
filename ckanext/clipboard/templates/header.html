@@ -1,0 +1,11 @@
+{% ckan_extends %}
+
+{% block header_account_logged %}
+  {% include "snippets/clipboard.html" %}
+  {{ super() }}
+{% endblock %}
+
+{% block header_account_notlogged %}
+  {% include "snippets/clipboard.html" %}
+  {{ super() }}
+{% endblock %}

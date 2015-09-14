@@ -1,0 +1,17 @@
+.resource-item .btn-group {
+	right: 60px;
+}
+
+.resource-item .btn-clipboard {
+	right: 10px;
+}
+
+.clipboard-cart .popover h3 {
+	color: #444444;
+}
+
+.clipboard-cart .popover ul li {
+	display: list-item;
+	border-left: none;
+	float: none;
+}
